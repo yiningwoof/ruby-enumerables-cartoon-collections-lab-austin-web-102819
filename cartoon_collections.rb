@@ -14,5 +14,5 @@ end
 
 def find_the_cheese(strs)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strs.find_index(|str| str)
+  strs.find_index(|str| cheese_types.include?(str))
 end
